@@ -1,0 +1,11 @@
+1. Пишу 2 ДК файла.
+   1 - docker-compose-web.yml
+   2 - docker-compose-db.yml
+2. Ввожу команду в треминал 
+   (docker stack deplay -c docker-compose-web.yml 
+    -c docker-compose-db.yml hw5_stack)
+    где указываю ДК файлы на которых создается контейнер 
+    и названия стека.
+3. Проверяю на каких нодах есть контейнеры 
+   и работоспособность приложений.
+   Скриншоты приложены.
